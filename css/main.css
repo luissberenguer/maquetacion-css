@@ -78,7 +78,7 @@ nav .profile-link a {
     font-family: 'Roboto', sans-serif;
 }
 
-main {
+.mi-blog {
     height: 100vh;
     background-image: url('../assets/img/Cover.png');
     background-size: cover;
@@ -120,4 +120,36 @@ main .main-container .main-container-buttom button {
     font-weight: 800;
     background-color: #47cfac;
     border: 0 solid transparent;
+}
+
+
+.blogs-main {
+    display: grid;
+}
+
+.blogs-news-container {
+    background-color: #e6e9ed;
+    padding: 0 50px 40px;
+}
+
+.blogs-main-new {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+
+.blogs-news-img {
+    grid-column: 1;
+}
+
+.blogs-news-img img {
+
+}
+
+.blogs-news-info-container {
+    grid-column: 2;
+}
+
+.blogs-news-info-container p {
+    margin-bottom: 35px;
 }
